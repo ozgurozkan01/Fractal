@@ -1,0 +1,8 @@
+# ninja log v5
+1	1289	7281457875484577	CMakeFiles/Fractal.dir/main.cpp.obj	dd54ca5da9df1a1a
+6	1311	7281457875723991	CMakeFiles/Fractal.dir/Screen.cpp.obj	9bbad69ca8bd6db5
+3	583	7281458310048109	CMakeFiles/Fractal.dir/main.cpp.obj	dd54ca5da9df1a1a
+583	672	7281458310901085	Fractal.exe	49db25f426fc299c
+3	636	7281458545884548	CMakeFiles/Fractal.dir/main.cpp.obj	dd54ca5da9df1a1a
+7	658	7281458546106883	CMakeFiles/Fractal.dir/Screen.cpp.obj	9bbad69ca8bd6db5
+658	751	7281458546997304	Fractal.exe	49db25f426fc299c
