@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Fractal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Fractal-Debug-aa9a6a7be763f2ead5f6.json",
+					"jsonFile" : "target-Fractal-Debug-d231f2dc28c61e0e2712.json",
 					"name" : "Fractal",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/ozgur/CLionProjects/Fractal/cmake-build-debug",
-		"source" : "C:/Users/ozgur/CLionProjects/Fractal"
+		"build" : "C:/Users/ozgur/GitHub/Fractal/cmake-build-debug",
+		"source" : "C:/Users/ozgur/GitHub/Fractal"
 	},
 	"version" : 
 	{

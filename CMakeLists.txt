@@ -9,5 +9,7 @@ include_directories( ${SDL2_INCLUDE_DIR} )
 
 add_executable(Fractal main.cpp
         Screen.cpp
-        Screen.h)
+        Screen.h
+        Pixel.cpp
+        Pixel.h)
 target_link_libraries(Fractal ${SDL2_LIBRARY} )

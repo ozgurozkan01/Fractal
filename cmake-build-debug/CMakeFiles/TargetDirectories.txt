@@ -1,3 +1,3 @@
-C:/Users/ozgur/CLionProjects/Fractal/cmake-build-debug/CMakeFiles/Fractal.dir
-C:/Users/ozgur/CLionProjects/Fractal/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/ozgur/CLionProjects/Fractal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ozgur/GitHub/Fractal/cmake-build-debug/CMakeFiles/Fractal.dir
+C:/Users/ozgur/GitHub/Fractal/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ozgur/GitHub/Fractal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
