@@ -49,26 +49,40 @@ cmake_ninja_workdir = C$:/Users/ozgur/GitHub/Fractal/cmake-build-debug/
 
 build cmake_object_order_depends_target_Fractal: phony || CMakeFiles/Fractal.dir
 
-build CMakeFiles/Fractal.dir/main.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug C$:/Users/ozgur/GitHub/Fractal/main.cpp || cmake_object_order_depends_target_Fractal
-  DEP_FILE = CMakeFiles\Fractal.dir\main.cpp.obj.d
+build CMakeFiles/Fractal.dir/src/main.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug C$:/Users/ozgur/GitHub/Fractal/src/main.cpp || cmake_object_order_depends_target_Fractal
+  DEP_FILE = CMakeFiles\Fractal.dir\src\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/include/SDL2
   OBJECT_DIR = CMakeFiles\Fractal.dir
-  OBJECT_FILE_DIR = CMakeFiles\Fractal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fractal.dir\src
 
-build CMakeFiles/Fractal.dir/Screen.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug C$:/Users/ozgur/GitHub/Fractal/Screen.cpp || cmake_object_order_depends_target_Fractal
-  DEP_FILE = CMakeFiles\Fractal.dir\Screen.cpp.obj.d
+build CMakeFiles/Fractal.dir/src/Screen.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug C$:/Users/ozgur/GitHub/Fractal/src/Screen.cpp || cmake_object_order_depends_target_Fractal
+  DEP_FILE = CMakeFiles\Fractal.dir\src\Screen.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/include/SDL2
   OBJECT_DIR = CMakeFiles\Fractal.dir
-  OBJECT_FILE_DIR = CMakeFiles\Fractal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fractal.dir\src
 
-build CMakeFiles/Fractal.dir/Pixel.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug C$:/Users/ozgur/GitHub/Fractal/Pixel.cpp || cmake_object_order_depends_target_Fractal
-  DEP_FILE = CMakeFiles\Fractal.dir\Pixel.cpp.obj.d
+build CMakeFiles/Fractal.dir/src/Mandelbrot/Mandelbrot.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug C$:/Users/ozgur/GitHub/Fractal/src/Mandelbrot/Mandelbrot.cpp || cmake_object_order_depends_target_Fractal
+  DEP_FILE = CMakeFiles\Fractal.dir\src\Mandelbrot\Mandelbrot.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/include/SDL2
   OBJECT_DIR = CMakeFiles\Fractal.dir
-  OBJECT_FILE_DIR = CMakeFiles\Fractal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fractal.dir\src\Mandelbrot
+
+build CMakeFiles/Fractal.dir/src/Snowflake/Snowflake.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug C$:/Users/ozgur/GitHub/Fractal/src/Snowflake/Snowflake.cpp || cmake_object_order_depends_target_Fractal
+  DEP_FILE = CMakeFiles\Fractal.dir\src\Snowflake\Snowflake.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/include/SDL2
+  OBJECT_DIR = CMakeFiles\Fractal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fractal.dir\src\Snowflake
+
+build CMakeFiles/Fractal.dir/src/Snowflake/Segment.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug C$:/Users/ozgur/GitHub/Fractal/src/Snowflake/Segment.cpp || cmake_object_order_depends_target_Fractal
+  DEP_FILE = CMakeFiles\Fractal.dir\src\Snowflake\Segment.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/include/SDL2
+  OBJECT_DIR = CMakeFiles\Fractal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fractal.dir\src\Snowflake
 
 
 # =============================================================================
@@ -78,7 +92,7 @@ build CMakeFiles/Fractal.dir/Pixel.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debu
 #############################################
 # Link the executable Fractal.exe
 
-build Fractal.exe: CXX_EXECUTABLE_LINKER__Fractal_Debug CMakeFiles/Fractal.dir/main.cpp.obj CMakeFiles/Fractal.dir/Screen.cpp.obj CMakeFiles/Fractal.dir/Pixel.cpp.obj | C$:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2main.a C$:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2.dll.a
+build Fractal.exe: CXX_EXECUTABLE_LINKER__Fractal_Debug CMakeFiles/Fractal.dir/src/main.cpp.obj CMakeFiles/Fractal.dir/src/Screen.cpp.obj CMakeFiles/Fractal.dir/src/Mandelbrot/Mandelbrot.cpp.obj CMakeFiles/Fractal.dir/src/Snowflake/Snowflake.cpp.obj CMakeFiles/Fractal.dir/src/Snowflake/Segment.cpp.obj | C$:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2main.a C$:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2.dll.a
   FLAGS = -g
   LINK_LIBRARIES = -lmingw32  -mwindows  C:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2main.a  C:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Fractal.dir

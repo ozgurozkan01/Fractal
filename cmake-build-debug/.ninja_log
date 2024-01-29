@@ -1,4 +1,11 @@
 # ninja log v5
-8	778	7281473278314454	CMakeFiles/Fractal.dir/main.cpp.obj	7fd77b8ac82c1558
-3	795	7281473278494642	CMakeFiles/Fractal.dir/Screen.cpp.obj	96778ddb3aa06b5
-795	892	7281473279422456	Fractal.exe	49db25f426fc299c
+9	1440	7282719101605907	CMakeFiles/Fractal.dir/src/Snowflake/Segment.cpp.obj	6346ee7f628573a6
+4	512	7281693562454741	CMakeFiles/Fractal.dir/Mandelbrot.cpp.obj	3a04bc0b65667f3
+6	1079	7281645692316353	CMakeFiles/Fractal.dir/main.cpp.obj	7fd77b8ac82c1558
+10	1117	7282472876896419	CMakeFiles/Fractal.dir/Screen.cpp.obj	96778ddb3aa06b5
+1479	1587	7282719103034301	Fractal.exe	1fb76afd773b691a
+9	776	7281510696030295	CMakeFiles/Fractal.dir/Pixel.cpp.obj	407bc7bdedb93085
+18	1122	7282719098412257	CMakeFiles/Fractal.dir/src/main.cpp.obj	528f9ebaa939a7d4
+14	1479	7282719101992924	CMakeFiles/Fractal.dir/src/Snowflake/Snowflake.cpp.obj	d14e64310c07a55c
+4	1412	7282490077535437	CMakeFiles/Fractal.dir/src/Mandelbrot/Mandelbrot.cpp.obj	c63bc02735cda059
+5	1388	7282719101078605	CMakeFiles/Fractal.dir/src/Screen.cpp.obj	8bb2f4cf54479f4f

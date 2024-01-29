@@ -7,9 +7,14 @@ set(SDL2_PATH "C:\\Users\\ozgur\\SDL2-2.28.1\\x86_64-w64-mingw32")
 find_package(SDL2 REQUIRED)
 include_directories( ${SDL2_INCLUDE_DIR} )
 
-add_executable(Fractal main.cpp
-        Screen.cpp
-        Screen.h
-        Pixel.cpp
-        Pixel.h)
+add_executable(Fractal src/main.cpp
+        src/Screen.cpp
+        src/Screen.h
+        src/Mandelbrot/Mandelbrot.cpp
+        src/Mandelbrot/Mandelbrot.h
+        src/Snowflake/Snowflake.cpp
+        src/Snowflake/Snowflake.h
+        src/Snowflake/Segment.cpp
+        src/Snowflake/Segment.h
+)
 target_link_libraries(Fractal ${SDL2_LIBRARY} )
