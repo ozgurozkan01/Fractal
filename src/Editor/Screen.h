@@ -6,13 +6,13 @@
 #define FRACTAL_SCREEN_H
 
 #include "SDL.h"
-#include "Mandelbrot/Mandelbrot.h"
-#include "Snowflake/Snowflake.h"
+#include "../Mandelbrot/Mandelbrot.h"
+#include "../Snowflake/Snowflake.h"
 
 class Screen
 {
 private:
-    const int windowWidth = 600;
+    const int windowWidth = 1000;
     const int windowHeight = 800;
     const char* windowName = "Fractal_Simulation";
 
@@ -26,6 +26,9 @@ private:
     Mandelbrot* mandelbrot;
     Snowflake* snowflake;
 
+    int* histogram;
+    int* pixelIterations;
+
 public:
 
     Screen();
@@ -33,9 +36,10 @@ public:
 
     void init();
     void processEvent();
-    void update();
     void drawFractal(int n);
     void setPixel(int x, int y, uint8_t red, uint8_t green, uint8_t blue);
+    void drawMandelbrot();
+    void drawSnowflake();
 };
 
 #endif //FRACTAL_SCREEN_H
