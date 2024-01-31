@@ -24,9 +24,9 @@ Snowflake::~Snowflake()
 
 void Snowflake::init()
 {
-    segment_1 = new Segment(vec2(0, 200), vec2(600, 200));
-    segment_2 = new Segment(vec2(600, 200), vec2(300, 700));
-    segment_3 = new Segment(vec2(300, 700), vec2(0, 200));
+    segment_1 = new Segment(vec2(200, 200), vec2(800, 200));
+    segment_2 = new Segment(vec2(800, 200), vec2(500, 700));
+    segment_3 = new Segment(vec2(500, 700), vec2(200, 200));
 
     segments.push_back(segment_1);
     segments.push_back(segment_2);
