@@ -8,13 +8,17 @@ find_package(SDL2 REQUIRED)
 include_directories( ${SDL2_INCLUDE_DIR} )
 
 add_executable(Fractal src/main.cpp
-        src/Screen.cpp
-        src/Screen.h
+        src/Editor/Screen.cpp
+        src/Editor/Screen.h
         src/Mandelbrot/Mandelbrot.cpp
         src/Mandelbrot/Mandelbrot.h
         src/Snowflake/Snowflake.cpp
         src/Snowflake/Snowflake.h
         src/Snowflake/Segment.cpp
         src/Snowflake/Segment.h
+        src/Mandelbulb/Mandelbulb.cpp
+        src/Mandelbulb/Mandelbulb.h
+        src/Editor/Zoom.cpp
+        src/Editor/Zoom.h
 )
 target_link_libraries(Fractal ${SDL2_LIBRARY} )
