@@ -12,7 +12,8 @@ struct Zoom
     int yCord{0};
     double scale{0.0};
 
-    Zoom(int x, int y, double _scale) : xCord(x), yCord(y), scale(_scale) {}
+    Zoom(int x, int y, double _scale) : xCord(x), yCord(y), scale(_scale)
+    {}
 };
 
 
