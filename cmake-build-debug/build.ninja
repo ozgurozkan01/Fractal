@@ -84,13 +84,6 @@ build CMakeFiles/Fractal.dir/src/Fractal/Snowflake/Segment.cpp.obj: CXX_COMPILER
   OBJECT_DIR = CMakeFiles\Fractal.dir
   OBJECT_FILE_DIR = CMakeFiles\Fractal.dir\src\Fractal\Snowflake
 
-build CMakeFiles/Fractal.dir/src/Fractal/Mandelbulb/Mandelbulb.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug C$:/Users/ozgur/GitHub/Fractal/src/Fractal/Mandelbulb/Mandelbulb.cpp || cmake_object_order_depends_target_Fractal
-  DEP_FILE = CMakeFiles\Fractal.dir\src\Fractal\Mandelbulb\Mandelbulb.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/include/SDL2
-  OBJECT_DIR = CMakeFiles\Fractal.dir
-  OBJECT_FILE_DIR = CMakeFiles\Fractal.dir\src\Fractal\Mandelbulb
-
 build CMakeFiles/Fractal.dir/src/Editor/ZoomList.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug C$:/Users/ozgur/GitHub/Fractal/src/Editor/ZoomList.cpp || cmake_object_order_depends_target_Fractal
   DEP_FILE = CMakeFiles\Fractal.dir\src\Editor\ZoomList.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -112,6 +105,13 @@ build CMakeFiles/Fractal.dir/src/Editor/RGB.cpp.obj: CXX_COMPILER__Fractal_unsca
   OBJECT_DIR = CMakeFiles\Fractal.dir
   OBJECT_FILE_DIR = CMakeFiles\Fractal.dir\src\Editor
 
+build CMakeFiles/Fractal.dir/src/Fractal/BrownianTreeSnowflake/BrownianTreeSnowflake.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug C$:/Users/ozgur/GitHub/Fractal/src/Fractal/BrownianTreeSnowflake/BrownianTreeSnowflake.cpp || cmake_object_order_depends_target_Fractal
+  DEP_FILE = CMakeFiles\Fractal.dir\src\Fractal\BrownianTreeSnowflake\BrownianTreeSnowflake.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/include/SDL2
+  OBJECT_DIR = CMakeFiles\Fractal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fractal.dir\src\Fractal\BrownianTreeSnowflake
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Fractal
@@ -120,7 +120,7 @@ build CMakeFiles/Fractal.dir/src/Editor/RGB.cpp.obj: CXX_COMPILER__Fractal_unsca
 #############################################
 # Link the executable Fractal.exe
 
-build Fractal.exe: CXX_EXECUTABLE_LINKER__Fractal_Debug CMakeFiles/Fractal.dir/src/main.cpp.obj CMakeFiles/Fractal.dir/src/Editor/Screen.cpp.obj CMakeFiles/Fractal.dir/src/Fractal/Mandelbrot/Mandelbrot.cpp.obj CMakeFiles/Fractal.dir/src/Fractal/Snowflake/Snowflake.cpp.obj CMakeFiles/Fractal.dir/src/Fractal/Snowflake/Segment.cpp.obj CMakeFiles/Fractal.dir/src/Fractal/Mandelbulb/Mandelbulb.cpp.obj CMakeFiles/Fractal.dir/src/Editor/ZoomList.cpp.obj CMakeFiles/Fractal.dir/src/Fractal/FractalCreator.cpp.obj CMakeFiles/Fractal.dir/src/Editor/RGB.cpp.obj | C$:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2main.a C$:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2.dll.a
+build Fractal.exe: CXX_EXECUTABLE_LINKER__Fractal_Debug CMakeFiles/Fractal.dir/src/main.cpp.obj CMakeFiles/Fractal.dir/src/Editor/Screen.cpp.obj CMakeFiles/Fractal.dir/src/Fractal/Mandelbrot/Mandelbrot.cpp.obj CMakeFiles/Fractal.dir/src/Fractal/Snowflake/Snowflake.cpp.obj CMakeFiles/Fractal.dir/src/Fractal/Snowflake/Segment.cpp.obj CMakeFiles/Fractal.dir/src/Editor/ZoomList.cpp.obj CMakeFiles/Fractal.dir/src/Fractal/FractalCreator.cpp.obj CMakeFiles/Fractal.dir/src/Editor/RGB.cpp.obj CMakeFiles/Fractal.dir/src/Fractal/BrownianTreeSnowflake/BrownianTreeSnowflake.cpp.obj | C$:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2main.a C$:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2.dll.a
   FLAGS = -g
   LINK_LIBRARIES = -lmingw32  -mwindows  C:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2main.a  C:/Users/ozgur/SDL2-2.28.1/x86_64-w64-mingw32/lib/libSDL2.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Fractal.dir

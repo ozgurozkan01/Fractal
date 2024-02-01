@@ -78,7 +78,7 @@
 				3,
 				5,
 				7,
-				9,
+				10,
 				12,
 				14,
 				16
@@ -143,7 +143,7 @@
 				3,
 				5,
 				7,
-				9,
+				10,
 				12,
 				14,
 				16
@@ -157,7 +157,7 @@
 				4,
 				6,
 				8,
-				10,
+				9,
 				11,
 				13,
 				15,
@@ -219,17 +219,6 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/Fractal/Mandelbulb/Mandelbulb.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "src/Fractal/Mandelbulb/Mandelbulb.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
 			"path" : "src/Editor/Zoom.h",
 			"sourceGroupIndex" : 1
 		},
@@ -264,6 +253,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/Editor/RGB.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Fractal/BrownianTreeSnowflake/BrownianTreeSnowflake.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Fractal/BrownianTreeSnowflake/BrownianTreeSnowflake.h",
 			"sourceGroupIndex" : 1
 		}
 	],
