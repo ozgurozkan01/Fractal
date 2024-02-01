@@ -1,8 +1,8 @@
 #include <complex>
 #include "Mandelbrot.h"
-#include "../../Editor/Zoom.h"
-#include "../../Editor/ZoomList.h"
-#include "../../Editor/RGB.h"
+#include "Zoom.h"
+#include "ZoomList.h"
+#include "RGB.h"
 #include <assert.h>
 
 Mandelbrot::Mandelbrot(int windowWidth, int windowHeight) :

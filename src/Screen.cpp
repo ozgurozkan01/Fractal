@@ -2,12 +2,10 @@
 #include <iostream>
 #include "ZoomList.h"
 #include "Zoom.h"
-#include "../Fractal/Snowflake/Snowflake.h"
 
-Screen::Screen(int drawnFractalNumber) :
+Screen::Screen() :
     isWindowOpen(true),
-    drawnFractalNumber(drawnFractalNumber),
-    fractalCreator(windowWidth, windowHeight, drawnFractalNumber)
+    fractalCreator(windowWidth, windowHeight)
 {
     init();
 }
@@ -68,7 +66,6 @@ void Screen::processEvent()
 
     while(isWindowOpen)
     {
-
         fractalCreator.drawFractal(texture, renderer);
 
         while (SDL_PollEvent(&e))
@@ -76,11 +73,6 @@ void Screen::processEvent()
             if (e.key.type == SDL_QUIT)
             {
                 isWindowOpen = false;
-            }
-
-            if (drawnFractalNumber == 1 && e.key.type == SDL_KEYDOWN && e.key.keysym.scancode == SDL_SCANCODE_E)
-            {
-                fractalCreator.snowflake->createNextGenerationSegments();
             }
         }
     }

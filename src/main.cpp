@@ -1,8 +1,8 @@
-#include "Editor/Screen.h"
+#include "Screen.h"
 
 int main(int argc, char **argv)
 {
-    Screen screen(0);
+    Screen screen;
 
     screen.processEvent();
 

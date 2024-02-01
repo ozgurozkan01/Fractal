@@ -11,18 +11,16 @@ class FractalCreator
 private:
     int windowWidth;
     int windowHeight;
-    int drawnFractalNumber;
 public:
     Mandelbrot* mandelbrot;
     Snowflake* snowflake;
     ZoomList* zoomlist;
 
-    FractalCreator(int windowWidth, int windowHeigth, int fractalNumber);
+    FractalCreator(int windowWidth, int windowHeigth);
     ~FractalCreator();
 
     void init();
     void showMandelbrotOnScreen(SDL_Texture* texture, SDL_Renderer* renderer);
-    void showSnowflakeOnScreen(SDL_Renderer* renderer);
     void drawFractal(SDL_Texture* texture, SDL_Renderer* renderer);
 };
 

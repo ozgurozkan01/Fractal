@@ -6,7 +6,7 @@
 #define FRACTAL_SCREEN_H
 
 #include "SDL.h"
-#include "../Fractal/FractalCreator.h"
+#include "FractalCreator.h"
 
 class Screen
 {
@@ -22,9 +22,8 @@ private:
     bool isWindowOpen;
 
     FractalCreator fractalCreator;
-    int drawnFractalNumber;
 public:
-    Screen(int drawnFractalNumber);
+    Screen();
     ~Screen();
 
     void init();

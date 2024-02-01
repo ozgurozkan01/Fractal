@@ -8,22 +8,16 @@ find_package(SDL2 REQUIRED)
 include_directories( ${SDL2_INCLUDE_DIR} )
 
 add_executable(Fractal src/main.cpp
-        src/Editor/Screen.cpp
-        src/Editor/Screen.h
-        src/Fractal/Mandelbrot/Mandelbrot.cpp
-        src/Fractal/Mandelbrot/Mandelbrot.h
-        src/Fractal/Snowflake/Snowflake.cpp
-        src/Fractal/Snowflake/Snowflake.h
-        src/Fractal/Snowflake/Segment.cpp
-        src/Fractal/Snowflake/Segment.h
-        src/Editor/Zoom.h
-        src/Editor/ZoomList.cpp
-        src/Editor/ZoomList.h
-        src/Fractal/FractalCreator.cpp
-        src/Fractal/FractalCreator.h
-        src/Editor/RGB.cpp
-        src/Editor/RGB.h
-        src/Fractal/BrownianTreeSnowflake/BrownianTreeSnowflake.cpp
-        src/Fractal/BrownianTreeSnowflake/BrownianTreeSnowflake.h
+        src/Screen.cpp
+        src/Screen.h
+        src/Mandelbrot.cpp
+        src/Mandelbrot.h
+        src/Zoom.h
+        src/ZoomList.cpp
+        src/ZoomList.h
+        src/FractalCreator.cpp
+        src/FractalCreator.h
+        src/RGB.cpp
+        src/RGB.h
 )
 target_link_libraries(Fractal ${SDL2_LIBRARY} )
