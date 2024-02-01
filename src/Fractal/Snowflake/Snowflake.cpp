@@ -12,21 +12,17 @@ Snowflake::Snowflake()
 
 Snowflake::~Snowflake()
 {
-    delete segment_1;
-    delete segment_2;
-    delete segment_3;
-
-    for (auto seg : segments)
+    for (auto segment : segments)
     {
-        delete seg;
+        delete segment;
     }
 }
 
 void Snowflake::init()
 {
-    segment_1 = new Segment(vec2(200, 200), vec2(800, 200));
-    segment_2 = new Segment(vec2(800, 200), vec2(500, 700));
-    segment_3 = new Segment(vec2(500, 700), vec2(200, 200));
+    segment_1 = new Segment(vec2(100,200), vec2(700,200));
+    segment_2 = new Segment(vec2(700,200), vec2(400,700));
+    segment_3 = new Segment(vec2(400,700), vec2(100,200));
 
     segments.push_back(segment_1);
     segments.push_back(segment_2);

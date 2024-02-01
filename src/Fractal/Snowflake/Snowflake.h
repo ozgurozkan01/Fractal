@@ -12,7 +12,6 @@ class Snowflake{
 
 private:
     std::vector<Segment*> segments;
-    std::vector<Segment*>  children;
 
     Segment* segment_1;
     Segment* segment_2;
