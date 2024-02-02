@@ -1,5 +1,4 @@
 # Fractal - Mandelbrot with SDL
-<<<<<<< Updated upstream
 
 ## How it looks fractal
                                                                                                                                     
@@ -8,8 +7,3 @@
 ## Build Instruction
 Dependencies
 * SDL2
-=======
-## How it looks project
-
-
->>>>>>> Stashed changes
